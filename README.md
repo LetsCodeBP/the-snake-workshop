@@ -9,3 +9,11 @@ git clone https://github.com/LetsCodeBP/the-snake-workshop.git
 ```
 
 You can find the files needed to get started in the [/starter](/starter) folder.
+
+-------
+
+If you have some canvas javascript syntaxt related question check out the [reference](reference.md).
+
+-------
+
+Slides available [here](https://docs.google.com/presentation/d/1c4vL6OybgkBQskDklPlWeW5KRqvAJ3ozijkJjS-WFWk/edit?usp=sharing).

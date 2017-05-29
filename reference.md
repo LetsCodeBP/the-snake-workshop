@@ -93,3 +93,25 @@ Math.random();
 ```
 
 Please see the [js_quick_reference.md](js_quick_reference.md) file to see a description about loops and array operations in js.
+
+## Interval
+
+To run a function over and over again with x ms between the runs, use setInterval.
+
+```javascript
+// note: 1 sec = 1000 millisecs
+setInterval(function, milliseconds);
+```
+
+## Constructor function
+
+```javascript
+var heyThere = new Hello();
+heyThere.say();
+
+function Hello(){
+  this.say = function(){
+    console.log('heyho');
+  }
+}
+```
