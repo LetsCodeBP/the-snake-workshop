@@ -1,14 +1,14 @@
 # Reference
 
-Collection of some javascript syntax that you might need through the workshop.
+A collection of some javascript syntax that you might need through the workshop.
 
 ## Canvas
 
 ### Draw a rectangle
 
 ```javascript
-/* draw a filled rectangle of size width and height to corrdinates x and y.
- * Note: fillRect exoects real cordinates in pixels!
+/* draw a filled rectangle of size width and height to coordinates x and y.
+ * Note: fillRect expects real coordinates in pixels!
  * Parameters
  *  x:      The x-coordinate of the upper-left corner of the rectangle
  *  y:      The y-coordinate of the upper-left corner of the rectangle
@@ -42,8 +42,8 @@ context.clearRect(x, y, width, height);
 /* addEventListener attaches a listener to a given object. It requires two parameters:
  * Parameters:
  *  event:    A String that specifies the name of the event.
- *  fuction:  Specifies the function to run when the event occurs.
- *  Note: addEventListener also has a third parameter wich is not required, and we won't need it for this woskshop. If you are interested in it you can read more about it here: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+ *  function:  Specifies the function to run when the event occurs.
+ *  Note: addEventListener also has a third parameter wich is not required, and we won't need it for this worskshop. If you are interested in it you can read more about it here: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
  */
 EventTarget.addEventListener(event, function);
 
@@ -88,7 +88,7 @@ Note: you need to use the _break_ keyword to prevent the evaluation of the other
 ## Random number
 
 ```javascript
-// Use the following statement to produce a random number withink 0 and 1:
+// Use the following statement to produce a random number within 0 and 1:
 Math.random();
 ```
 
